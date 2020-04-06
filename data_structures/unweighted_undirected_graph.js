@@ -32,8 +32,9 @@ const graph0 = {
 // Class Graph
 // Undirected, Unweighted, using Adjacent List (Hash Table/Object)
 // Well I prefered using HashSet instead of an Array for a node's connections
-// HashSet is like an HashTable with the properties of an Array, it provides item
-// uniqueness! So no need to worry about duplicate connections.
+// HashSet is a list item closely related to HashTable, it provides item
+// uniqueness and a lookup of O(1) instead of O(n) for an Array.
+// I could have used also a double linked list but the concept stays the same with a HashSet/Array.
 
 class Graph { 
   constructor() { 
