@@ -72,7 +72,6 @@ class Graph {
     return false;
   }
 
-  // Actually this function just below is not my code, got it from a course I follow
   showConnections() { 
     const allNodes = Object.keys(this.adjacentList); 
     for (let node of allNodes) { 
